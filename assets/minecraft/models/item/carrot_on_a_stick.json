@@ -290,7 +290,7 @@
 			"predicate": {
 				"custom_model_data":48
 			},
-			"model": "plopsacraft:48_harnais_anubis"
+			"model": "plopsacraft:48_harnais-anubis"
 		},
 		{
 			"predicate": {
@@ -302,7 +302,7 @@
 			"predicate": {
 				"custom_model_data":50
 			},
-			"model": "plopsacraft:50_accroche_train_hapiness"
+			"model": "plopsacraft:50_accroche-train-hapiness"
 		},
 		{
 			"predicate": {
@@ -338,7 +338,7 @@
 			"predicate": {
 				"custom_model_data":56
 			},
-			"model": "plopsacraft:56_bos_van_plop"
+			"model": "plopsacraft:56_bos-van-plop"
 		},
 		{
 			"predicate": {
