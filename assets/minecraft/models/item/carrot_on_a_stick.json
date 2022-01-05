@@ -339,6 +339,24 @@
 				"custom_model_data":56
 			},
 			"model": "plopsacraft:56_bos_van_plop"
+		},
+		{
+			"predicate": {
+				"custom_model_data":57
+			},
+			"model": "plopsacraft:57_plopsa-express-train"
+		},
+		{
+			"predicate": {
+				"custom_model_data":58
+			},
+			"model": "plopsacraft:58_chair"
+		},
+		{
+			"predicate": {
+				"custom_model_data":59
+			},
+			"model": "plopsacraft:59_piraten-poubelle"
 		}
 	]
 }

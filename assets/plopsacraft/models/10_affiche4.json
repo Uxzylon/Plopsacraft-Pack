@@ -298,7 +298,7 @@
 	],
 	"display": {
 		"head": {
-			"scale": [2.2, 2.74, 2.22]
+			"scale": [4, 4, 4]
 		}
 	},
 	"groups": [
@@ -306,13 +306,18 @@
 			"name": "group",
 			"origin": [8, 8, 8],
 			"color": 0,
-			"children": [0, 1,
+			"children": [
+				0,
+				1,
 				{
 					"name": "group",
 					"origin": [16, 0, 0],
 					"color": 0,
 					"children": [2]
-				}, 3, 4]
+				},
+				3,
+				4
+			]
 		},
 		{
 			"name": "hexadecagon",
