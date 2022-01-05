@@ -1,0 +1,44 @@
+{
+	"ochtendgymnastiek": {
+		"category": "master",
+		"sounds": [
+			"plopsacraft:ochtendgymnastiek"
+		]
+	},
+	"plopsaland_medley_piet_piraat": {
+		"category": "master",
+		"sounds": [
+			"plopsacraft:plopsaland_medley_piet_piraat"
+		]
+	},
+	"plopsaland_plop_medley": {
+		"category": "master",
+		"sounds": [
+			"plopsacraft:plopsaland_plop_medley"
+		]
+	},
+	"plopsaland_samson_en_gert_medley": {
+		"category": "master",
+		"sounds": [
+			"plopsacraft:plopsaland_samson_en_gert_medley"
+		]
+	},
+	"plopsaland_theme": {
+		"category": "master",
+		"sounds": [
+			"plopsacraft:plopsaland_theme"
+		]
+	},
+	"wij_gaan_vliegen": {
+		"category": "master",
+		"sounds": [
+			"plopsacraft:wij_gaan_vliegen"
+		]
+	},
+	"the_ride_to_happiness_soundtrack": {
+		"category": "master",
+		"sounds": [
+			"plopsacraft:the_ride_to_happiness_soundtrack"
+		]
+	}
+}

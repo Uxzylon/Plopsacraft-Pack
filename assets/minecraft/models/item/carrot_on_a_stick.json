@@ -1,0 +1,344 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/carrot_on_a_stick"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data":1
+			},
+			"model": "plopsacraft:1_table"
+		},
+		{
+			"predicate": {
+				"custom_model_data":2
+			},
+			"model": "plopsacraft:2_plopsacraft-express"
+		},
+		{
+			"predicate": {
+				"custom_model_data":3
+			},
+			"model": "plopsacraft:3_tracteur"
+		},
+		{
+			"predicate": {
+				"custom_model_data":4
+			},
+			"model": "plopsacraft:4_tracteurjaune"
+		},
+		{
+			"predicate": {
+				"custom_model_data":5
+			},
+			"model": "plopsacraft:5_tracteurrouge"
+		},
+		{
+			"predicate": {
+				"custom_model_data":6
+			},
+			"model": "plopsacraft:6_tracteurvert"
+		},
+		{
+			"predicate": {
+				"custom_model_data":7
+			},
+			"model": "plopsacraft:7_affiche1"
+		},
+		{
+			"predicate": {
+				"custom_model_data":8
+			},
+			"model": "plopsacraft:8_affiche2"
+		},
+		{
+			"predicate": {
+				"custom_model_data":9
+			},
+			"model": "plopsacraft:9_affiche3"
+		},
+		{
+			"predicate": {
+				"custom_model_data":10
+			},
+			"model": "plopsacraft:10_affiche4"
+		},
+		{
+			"predicate": {
+				"custom_model_data":11
+			},
+			"model": "plopsacraft:11_affiche5"
+		},
+		{
+			"predicate": {
+				"custom_model_data":12
+			},
+			"model": "plopsacraft:12_anubislogoingang"
+		},
+		{
+			"predicate": {
+				"custom_model_data":13
+			},
+			"model": "plopsacraft:13_anubispanneau"
+		},
+		{
+			"predicate": {
+				"custom_model_data":14
+			},
+			"model": "plopsacraft:14_anubisportique1"
+		},
+		{
+			"predicate": {
+				"custom_model_data":15
+			},
+			"model": "plopsacraft:15_anubisportique2"
+		},
+		{
+			"predicate": {
+				"custom_model_data":16
+			},
+			"model": "plopsacraft:16_poubelle-dors-plein"
+		},
+		{
+			"predicate": {
+				"custom_model_data":17
+			},
+			"model": "plopsacraft:17_banc"
+		},
+		{
+			"predicate": {
+				"custom_model_data":18
+			},
+			"model": "plopsacraft:18_anubis"
+		},
+		{
+			"predicate": {
+				"custom_model_data":19
+			},
+			"model": "plopsacraft:19_controlpanel"
+		},
+		{
+			"predicate": {
+				"custom_model_data":20
+			},
+			"model": "plopsacraft:20_entree-row-1-column-1"
+		},
+		{
+			"predicate": {
+				"custom_model_data":21
+			},
+			"model": "plopsacraft:21_entree-row-1-column-2"
+		},
+		{
+			"predicate": {
+				"custom_model_data":22
+			},
+			"model": "plopsacraft:22_entree-row-1-column-3"
+		},
+		{
+			"predicate": {
+				"custom_model_data":23
+			},
+			"model": "plopsacraft:23_entree-row-1-column-4"
+		},
+		{
+			"predicate": {
+				"custom_model_data":24
+			},
+			"model": "plopsacraft:24_entree-row-2-column-1"
+		},
+		{
+			"predicate": {
+				"custom_model_data":25
+			},
+			"model": "plopsacraft:25_entree-row-2-column-2"
+		},
+		{
+			"predicate": {
+				"custom_model_data":26
+			},
+			"model": "plopsacraft:26_entree-row-2-column-3"
+		},
+		{
+			"predicate": {
+				"custom_model_data":27
+			},
+			"model": "plopsacraft:27_entree-row-2-column-4"
+		},
+		{
+			"predicate": {
+				"custom_model_data":28
+			},
+			"model": "plopsacraft:28_anubis"
+		},
+		{
+			"predicate": {
+				"custom_model_data":29
+			},
+			"model": "plopsacraft:29_ecran"
+		},
+		{
+			"predicate": {
+				"custom_model_data":30
+			},
+			"model": "plopsacraft:30_ordinateur"
+		},
+		{
+			"predicate": {
+				"custom_model_data":31
+			},
+			"model": "plopsacraft:31_barriere"
+		},
+		{
+			"predicate": {
+				"custom_model_data":32
+			},
+			"model": "plopsacraft:32_guichet"
+		},
+		{
+			"predicate": {
+				"custom_model_data":33
+			},
+			"model": "plopsacraft:33_rth-bas"
+		},
+		{
+			"predicate": {
+				"custom_model_data":34
+			},
+			"model": "plopsacraft:34_rth-haut"
+		},
+		{
+			"predicate": {
+				"custom_model_data":35
+			},
+			"model": "plopsacraft:35_logo-rth"
+		},
+		{
+			"predicate": {
+				"custom_model_data":36
+			},
+			"model": "plopsacraft:36_logo-proximus"
+		},
+		{
+			"predicate": {
+				"custom_model_data":37
+			},
+			"model": "plopsacraft:37_supersplash"
+		},
+		{
+			"predicate": {
+				"custom_model_data":38
+			},
+			"model": "plopsacraft:38_supersplashsupport"
+		},
+		{
+			"predicate": {
+				"custom_model_data":39
+			},
+			"model": "plopsacraft:39_supersplashsupport2"
+		},
+		{
+			"predicate": {
+				"custom_model_data":40
+			},
+			"model": "plopsacraft:40_lapbar"
+		},
+		{
+			"predicate": {
+				"custom_model_data":41
+			},
+			"model": "plopsacraft:41_portesplash"
+		},
+		{
+			"predicate": {
+				"custom_model_data":42
+			},
+			"model": "plopsacraft:42_rth-harnais"
+		},
+		{
+			"predicate": {
+				"custom_model_data":43
+			},
+			"model": "plopsacraft:43_bateau"
+		},
+		{
+			"predicate": {
+				"custom_model_data":44
+			},
+			"model": "plopsacraft:44_bateausupport"
+		},
+		{
+			"predicate": {
+				"custom_model_data":45
+			},
+			"model": "plopsacraft:45_panneau-acces"
+		},
+		{
+			"predicate": {
+				"custom_model_data":46
+			},
+			"model": "plopsacraft:46_badge"
+		},
+		{
+			"predicate": {
+				"custom_model_data":47
+			},
+			"model": "plopsacraft:47_seat"
+		},
+		{
+			"predicate": {
+				"custom_model_data":48
+			},
+			"model": "plopsacraft:48_harnais_anubis"
+		},
+		{
+			"predicate": {
+				"custom_model_data":49
+			},
+			"model": "plopsacraft:49_control-panel-man2"
+		},
+		{
+			"predicate": {
+				"custom_model_data":50
+			},
+			"model": "plopsacraft:50_accroche_train_hapiness"
+		},
+		{
+			"predicate": {
+				"custom_model_data":51
+			},
+			"model": "plopsacraft:51_badge-thomas"
+		},
+		{
+			"predicate": {
+				"custom_model_data":52
+			},
+			"model": "plopsacraft:52_gilet-stewart"
+		},
+		{
+			"predicate": {
+				"custom_model_data":53
+			},
+			"model": "plopsacraft:53_de-draak-ingang"
+		},
+		{
+			"predicate": {
+				"custom_model_data":54
+			},
+			"model": "plopsacraft:54_food-bos-van-plop-pasta"
+		},
+		{
+			"predicate": {
+				"custom_model_data":55
+			},
+			"model": "plopsacraft:55_bos-van-plop-ingang"
+		},
+		{
+			"predicate": {
+				"custom_model_data":56
+			},
+			"model": "plopsacraft:56_bos_van_plop"
+		}
+	]
+}
