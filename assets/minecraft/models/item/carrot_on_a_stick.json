@@ -357,6 +357,24 @@
 				"custom_model_data":59
 			},
 			"model": "plopsacraft:59_piraten-poubelle"
+		},
+		{
+			"predicate": {
+				"custom_model_data":60
+			},
+			"model": "plopsacraft:60_victor-train"
+		},
+		{
+			"predicate": {
+				"custom_model_data":61
+			},
+			"model": "plopsacraft:61_victor-train-first"
+		},
+		{
+			"predicate": {
+				"custom_model_data":62
+			},
+			"model": "plopsacraft:62_lab-bar-victors-race"
 		}
 	]
 }
