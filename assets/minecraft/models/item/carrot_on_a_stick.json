@@ -375,6 +375,36 @@
 				"custom_model_data":62
 			},
 			"model": "plopsacraft:62_lab-bar-victors-race"
+		},
+		{
+			"predicate": {
+				"custom_model_data":63
+			},
+			"model": "plopsacraft:63_nacht-wacht-poubelle"
+		},
+		{
+			"predicate": {
+				"custom_model_data":64
+			},
+			"model": "plopsacraft:64_nacht-wacht-drapeau"
+		},
+		{
+			"predicate": {
+				"custom_model_data":65
+			},
+			"model": "plopsacraft:65_nacht-wacht-flyer1"
+		},
+		{
+			"predicate": {
+				"custom_model_data":66
+			},
+			"model": "plopsacraft:66_nacht-wacht-flyer2"
+		},
+		{
+			"predicate": {
+				"custom_model_data":67
+			},
+			"model": "plopsacraft:67_nacht-wacht-flyer3"
 		}
 	]
 }
