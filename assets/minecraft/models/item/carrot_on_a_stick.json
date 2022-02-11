@@ -411,6 +411,12 @@
 				"custom_model_data":68
 			},
 			"model": "plopsacraft:68_nacht-wacht-flyer4"
+		},
+		{
+			"predicate": {
+				"custom_model_data":69
+			},
+			"model": "plopsacraft:69_panel-draak"
 		}
 	]
 }
