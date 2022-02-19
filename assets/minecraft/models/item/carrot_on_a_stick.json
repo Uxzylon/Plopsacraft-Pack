@@ -417,6 +417,60 @@
 				"custom_model_data":69
 			},
 			"model": "plopsacraft:69_panel-draak"
+		},
+		{
+			"predicate": {
+				"custom_model_data":70
+			},
+			"model": "plopsacraft:70_kaatje-zoekt-endje"
+		},
+		{
+			"predicate": {
+				"custom_model_data":71
+			},
+			"model": "plopsacraft:71_lapins"
+		},
+		{
+			"predicate": {
+				"custom_model_data":72
+			},
+			"model": "plopsacraft:72_victor-trein"
+		},
+		{
+			"predicate": {
+				"custom_model_data":73
+			},
+			"model": "plopsacraft:73_k3-affiche"
+		},
+		{
+			"predicate": {
+				"custom_model_data":74
+			},
+			"model": "plopsacraft:74_k3-orange"
+		},
+		{
+			"predicate": {
+				"custom_model_data":75
+			},
+			"model": "plopsacraft:75_k3-blue"
+		},
+		{
+			"predicate": {
+				"custom_model_data":76
+			},
+			"model": "plopsacraft:76_k3-pink"
+		},
+		{
+			"predicate": {
+				"custom_model_data":77
+			},
+			"model": "plopsacraft:77_k3-yellow"
+		},
+		{
+			"predicate": {
+				"custom_model_data":78
+			},
+			"model": "plopsacraft:78_k3-first"
 		}
 	]
 }
