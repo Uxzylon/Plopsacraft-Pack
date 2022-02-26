@@ -2664,7 +2664,7 @@
 	"display": {
 		"head": {
 			"translation": [0, -30.25, -18.25],
-			"scale": [2.27, 2.27, 2.27]
+			"scale": [2, 2, 2]
 		}
 	},
 	"groups": [

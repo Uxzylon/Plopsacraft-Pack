@@ -465,6 +465,24 @@
 				"custom_model_data":77
 			},
 			"model": "plopsacraft:77_k3-yellow"
+		},
+		{
+			"predicate": {
+				"custom_model_data":78
+			},
+			"model": "plopsacraft:78_k3-gates"
+		},
+		{
+			"predicate": {
+				"custom_model_data":79
+			},
+			"model": "plopsacraft:79_k3-gates1"
+		},
+		{
+			"predicate": {
+				"custom_model_data":80
+			},
+			"model": "plopsacraft:80_banc"
 		}
 	]
 }

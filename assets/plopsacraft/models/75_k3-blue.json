@@ -2663,8 +2663,8 @@
 	],
 	"display": {
 		"head": {
-			"translation": [0, -30.25, -18.25],
-			"scale": [2.27, 2.27, 2.27]
+			"translation": [0, -24, -29.25],
+			"scale": [2, 2, 2]
 		}
 	},
 	"groups": [
