@@ -483,6 +483,24 @@
 				"custom_model_data":80
 			},
 			"model": "plopsacraft:80_banc"
+		},
+		{
+			"predicate": {
+				"custom_model_data":81
+			},
+			"model": "plopsacraft:81_barrier-plopsa"
+		},
+		{
+			"predicate": {
+				"custom_model_data":82
+			},
+			"model": "plopsacraft:82_dummies"
+		},
+		{
+			"predicate": {
+				"custom_model_data":83
+			},
+			"model": "plopsacraft:83_kaatje-zoekt-endje"
 		}
 	]
 }
