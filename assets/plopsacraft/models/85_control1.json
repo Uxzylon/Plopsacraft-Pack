@@ -1,0 +1,113 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/gray_concrete",
+		"3": "block/yellow_terracotta",
+		"4": "block/red_terracotta",
+		"5": "plopsacraft:text-bouton",
+		"particle": "block/gray_concrete"
+	},
+	"elements": [
+		{
+			"from": [1, 0, 1],
+			"to": [2, 1.825, 2],
+			"faces": {
+				"north": {"uv": [0, 0, 1, 1.5], "texture": "#0"},
+				"east": {"uv": [0, 0, 1, 1.5], "texture": "#0"},
+				"south": {"uv": [0, 0, 1, 1.5], "texture": "#0"},
+				"west": {"uv": [0, 0, 1, 1.5], "texture": "#0"},
+				"up": {"uv": [0, 0, 1, 1], "texture": "#0"},
+				"down": {"uv": [0, 0, 1, 1], "texture": "#0"}
+			}
+		},
+		{
+			"from": [0.5, 1.625, 0.5],
+			"to": [2.5, 2.225, 2.5],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 0.6], "texture": "#4"},
+				"east": {"uv": [0, 0, 2, 0.6], "texture": "#4"},
+				"south": {"uv": [0, 0, 2, 0.6], "texture": "#4"},
+				"west": {"uv": [0, 0, 2, 0.6], "texture": "#4"},
+				"up": {"uv": [0, 0, 2, 2], "texture": "#4"},
+				"down": {"uv": [0, 0, 2, 2], "texture": "#4"}
+			}
+		},
+		{
+			"from": [0.3, 0.275, 3.8],
+			"to": [2.8, 0.325, 5.2],
+			"faces": {
+				"north": {"uv": [0, 0, 3, 0.3], "texture": "#5"},
+				"east": {"uv": [0, 0, 3, 0.3], "texture": "#5"},
+				"south": {"uv": [0, 0, 3, 0.3], "texture": "#5"},
+				"west": {"uv": [0, 0, 3, 0.3], "texture": "#5"},
+				"up": {"uv": [4.39167, 2.41667, 1.03333, 0.85], "texture": "#5"},
+				"down": {"uv": [0, 0, 3, 3], "texture": "#5"}
+			}
+		},
+		{
+			"from": [0, 0, 3.5],
+			"to": [3, 0.3, 5.5],
+			"faces": {
+				"north": {"uv": [0, 0, 3, 0.3], "texture": "#0"},
+				"east": {"uv": [0, 0, 3, 0.3], "texture": "#0"},
+				"south": {"uv": [0, 0, 3, 0.3], "texture": "#0"},
+				"west": {"uv": [0, 0, 3, 0.3], "texture": "#0"},
+				"up": {"uv": [0, 0, 3, 3], "texture": "#0"},
+				"down": {"uv": [0, 0, 3, 3], "texture": "#0"}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [3, 0.3, 3],
+			"faces": {
+				"north": {"uv": [0, 0, 3, 0.3], "texture": "#3"},
+				"east": {"uv": [0, 0, 3, 0.3], "texture": "#3"},
+				"south": {"uv": [0, 0, 3, 0.3], "texture": "#3"},
+				"west": {"uv": [0, 0, 3, 0.3], "texture": "#3"},
+				"up": {"uv": [0, 0, 3, 3], "texture": "#3"},
+				"down": {"uv": [0, 0, 3, 3], "texture": "#3"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [54, -180, 0],
+			"translation": [-1.75, -2.5, 2.5],
+			"scale": [0, 0, 0]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0, 0, 0]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -180, 0],
+			"translation": [-6, 7.75, -5.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -180, 0],
+			"translation": [5.25, 9, -5.5]
+		},
+		"ground": {
+			"translation": [6.75, 3, 6.5]
+		},
+		"gui": {
+			"rotation": [34, 163, 0],
+			"translation": [-8.75, 21, 0],
+			"scale": [2, 2, 2]
+		},
+		"head": {
+			"translation": [13, 22.25, 13],
+			"scale": [2, 2, 2]
+		},
+		"fixed": {
+			"translation": [5.75, 10, 9.25]
+		}
+	},
+	"groups": [
+		{
+			"name": "bee_spawn_egg",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4]
+		}
+	]
+}

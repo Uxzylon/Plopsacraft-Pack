@@ -501,6 +501,114 @@
 				"custom_model_data":83
 			},
 			"model": "plopsacraft:83_kaatje-zoekt-endje"
+		},
+		{
+			"predicate": {
+				"custom_model_data":84
+			},
+			"model": "plopsacraft:84_balancoire"
+		},
+		{
+			"predicate": {
+				"custom_model_data":85
+			},
+			"model": "plopsacraft:85_control1"
+		},
+		{
+			"predicate": {
+				"custom_model_data":86
+			},
+			"model": "plopsacraft:86_control2"
+		},
+		{
+			"predicate": {
+				"custom_model_data":87
+			},
+			"model": "plopsacraft:87_control3"
+		},
+		{
+			"predicate": {
+				"custom_model_data":88
+			},
+			"model": "plopsacraft:88_control4"
+		},
+		{
+			"predicate": {
+				"custom_model_data":89
+			},
+			"model": "plopsacraft:89_control5"
+		},
+		{
+			"predicate": {
+				"custom_model_data":90
+			},
+			"model": "plopsacraft:90_control6"
+		},
+		{
+			"predicate": {
+				"custom_model_data":91
+			},
+			"model": "plopsacraft:91_control7"
+		},
+		{
+			"predicate": {
+				"custom_model_data":92
+			},
+			"model": "plopsacraft:92_control8"
+		},
+		{
+			"predicate": {
+				"custom_model_data":93
+			},
+			"model": "plopsacraft:93_control9"
+		},
+		{
+			"predicate": {
+				"custom_model_data":94
+			},
+			"model": "plopsacraft:94_control10"
+		},
+		{
+			"predicate": {
+				"custom_model_data":95
+			},
+			"model": "plopsacraft:95_control11"
+		},
+		{
+			"predicate": {
+				"custom_model_data":96
+			},
+			"model": "plopsacraft:96_control12"
+		},
+		{
+			"predicate": {
+				"custom_model_data":97
+			},
+			"model": "plopsacraft:97_control13"
+		},
+		{
+			"predicate": {
+				"custom_model_data":98
+			},
+			"model": "plopsacraft:98_control14"
+		},
+		{
+			"predicate": {
+				"custom_model_data":99
+			},
+			"model": "plopsacraft:99_control15"
+		},
+		{
+			"predicate": {
+				"custom_model_data":100
+			},
+			"model": "plopsacraft:100_control16"
+		},
+		{
+			"predicate": {
+				"custom_model_data":101
+			},
+			"model": "plopsacraft:101_control17"
 		}
 	]
 }
