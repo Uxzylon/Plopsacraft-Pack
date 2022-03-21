@@ -530,7 +530,7 @@
 			"predicate": {
 				"custom_model_data":88
 			},
-			"model": "plopsacraft:88_control4"
+			"model": "plopsacraft:88_op1"
 		},
 		{
 			"predicate": {
@@ -609,6 +609,54 @@
 				"custom_model_data":101
 			},
 			"model": "plopsacraft:101_control17"
+		},
+		{
+			"predicate": {
+				"custom_model_data":102
+			},
+			"model": "plopsacraft:102_control18"
+		},
+		{
+			"predicate": {
+				"custom_model_data":103
+			},
+			"model": "plopsacraft:103_control19"
+		},
+		{
+			"predicate": {
+				"custom_model_data":104
+			},
+			"model": "plopsacraft:104_control20"
+		},
+		{
+			"predicate": {
+				"custom_model_data":105
+			},
+			"model": "plopsacraft:105_control21"
+		},
+		{
+			"predicate": {
+				"custom_model_data":106
+			},
+			"model": "plopsacraft:106_control22"
+		},
+		{
+			"predicate": {
+				"custom_model_data":107
+			},
+			"model": "plopsacraft:107_control23"
+		},
+		{
+			"predicate": {
+				"custom_model_data":108
+			},
+			"model": "plopsacraft:108_op2"
+		},
+		{
+			"predicate": {
+				"custom_model_data":109
+			},
+			"model": "plopsacraft:109_op3"
 		}
 	]
 }
