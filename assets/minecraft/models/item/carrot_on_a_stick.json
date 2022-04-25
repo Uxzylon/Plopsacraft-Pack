@@ -759,6 +759,48 @@
 				"custom_model_data":126
 			},
 			"model": "plopsacraft:126_lapbar-draak"
+		},
+		{
+			"predicate": {
+				"custom_model_data":127
+			},
+			"model": "plopsacraft:127_control36"
+		},
+		{
+			"predicate": {
+				"custom_model_data":128
+			},
+			"model": "plopsacraft:128_control37"
+		},
+		{
+			"predicate": {
+				"custom_model_data":129
+			},
+			"model": "plopsacraft:129_control38"
+		},
+		{
+			"predicate": {
+				"custom_model_data":130
+			},
+			"model": "plopsacraft:130_control39"
+		},
+		{
+			"predicate": {
+				"custom_model_data":131
+			},
+			"model": "plopsacraft:131_control40"
+		},
+		{
+			"predicate": {
+				"custom_model_data":132
+			},
+			"model": "plopsacraft:132_control41"
+		},
+		{
+			"predicate": {
+				"custom_model_data":133
+			},
+			"model": "plopsacraft:133_control42"
 		}
 	]
 }
