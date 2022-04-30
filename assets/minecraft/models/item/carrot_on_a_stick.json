@@ -801,6 +801,24 @@
 				"custom_model_data":133
 			},
 			"model": "plopsacraft:133_control42"
+		},
+		{
+			"predicate": {
+				"custom_model_data":134
+			},
+			"model": "plopsacraft:134_pointicon"
+		},
+		{
+			"predicate": {
+				"custom_model_data":135
+			},
+			"model": "plopsacraft:135_carte"
+		},
+		{
+			"predicate": {
+				"custom_model_data":136
+			},
+			"model": "plopsacraft:136_labbark3"
 		}
 	]
 }

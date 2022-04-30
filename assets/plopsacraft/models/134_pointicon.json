@@ -1,0 +1,37 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "plopsacraft:point-icon"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-180, 0, 0],
+			"translation": [0, -2.25, -4.5],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-180, 0, 0],
+			"translation": [-0.25, -2.5, -3.25],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"ground": {
+			"rotation": [-180, 0, 0]
+		},
+		"gui": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"head": {
+			"rotation": [-180, 0, 0],
+			"translation": [0, -2, -16]
+		}
+	},
+	"groups": [
+		{
+			"name": "acacia_boat",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": []
+		}
+	]
+}

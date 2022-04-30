@@ -1,0 +1,35 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "plopsacraft:parkplan2022",
+		"particle": "plopsacraft:parkplan2022"
+	},
+	"elements": [
+		{
+			"from": [-16, 0, 0],
+			"to": [32, 32, 1],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 0.46667, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 0.325, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 1], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 1], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"translation": [-72.75, -69.25, 0],
+			"scale": [4, 4, 1]
+		}
+	},
+	"groups": [
+		{
+			"name": "135_carte",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0]
+		}
+	]
+}
