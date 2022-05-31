@@ -819,6 +819,12 @@
 				"custom_model_data":136
 			},
 			"model": "plopsacraft:136_labbark3"
+		},
+		{
+			"predicate": {
+				"custom_model_data":137
+			},
+			"model": "plopsacraft:137_les-canards"
 		}
 	]
 }
