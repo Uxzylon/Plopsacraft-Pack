@@ -1,0 +1,51 @@
+{
+    "fireworks.blast_far1": {
+        "category": "block",
+        "replace": true,
+        "sounds": [
+            "fireworks/blast_far1"
+        ]
+    },
+    "fireworks.blast1": {
+        "category": "block",
+        "replace": true,
+        "sounds": [
+            "fireworks/blast1"
+        ]
+    },
+    "fireworks.largeBlast_far1": {
+        "category": "block",
+        "replace": true,
+        "sounds": [
+            "fireworks/largeBlast_far1"
+        ]
+    },
+    "fireworks.largeBlast1": {
+        "category": "block",
+        "replace": true,
+        "sounds": [
+            "fireworks/largeBlast1"
+        ]
+    },
+    "fireworks.launch1": {
+        "category": "block",
+        "replace": true,
+        "sounds": [
+            "fireworks/launch1"
+        ]
+    }
+    "fireworks.twinkle_far1": {
+        "category": "block",
+        "replace": true,
+        "sounds": [
+            "fireworks/twinkle_far1"
+        ]
+    },
+    "fireworks.twinkle1": {
+        "category": "block",
+        "replace": true,
+        "sounds": [
+            "fireworks/twinkle1"
+        ]
+    }
+}
