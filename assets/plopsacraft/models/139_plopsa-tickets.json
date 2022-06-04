@@ -1,0 +1,38 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "plopsacraft:ticket",
+		"particle": "plopsacraft:ticket"
+	},
+	"elements": [
+		{
+			"from": [2, 0, 0],
+			"to": [13, 5, 0],
+			"faces": {
+				"north": {"uv": [4.91018, 5.4491, 11.03593, 10.22156], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 5], "texture": "#0"},
+				"south": {"uv": [5, 5.41317, 11.08982, 10.22156], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 5], "texture": "#0"},
+				"up": {"uv": [0, 0, 11, 0], "texture": "#0"},
+				"down": {"uv": [0, 0, 11, 0], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0.75, 6, 6.5],
+			"scale": [0.79, 0.79, 0.79]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 3.5, 0]
+		},
+		"gui": {
+			"translation": [0.75, 7.75, 0],
+			"scale": [1.47, 1.67, 1.26]
+		},
+		"fixed": {
+			"translation": [1.25, 14, 6],
+			"scale": [2.73, 2.84, 1]
+		}
+	}
+}
