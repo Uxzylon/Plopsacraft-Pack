@@ -879,6 +879,12 @@
 				"custom_model_data":148
 			},
 			"model": "plopsacraft:148_panneaunwf"
+		},
+		{
+			"predicate": {
+				"custom_model_data":149
+			},
+			"model": "plopsacraft:149_glass"
 		}
 	]
 }
