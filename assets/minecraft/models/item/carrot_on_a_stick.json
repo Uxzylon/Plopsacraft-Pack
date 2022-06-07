@@ -825,6 +825,60 @@
 				"custom_model_data":137
 			},
 			"model": "plopsacraft:137_les-canards"
+		},
+		{
+			"predicate": {
+				"custom_model_data":140
+			},
+			"model": "plopsacraft:140_panneaucanards"
+		},
+		{
+			"predicate": {
+				"custom_model_data":141
+			},
+			"model": "plopsacraft:141_panneaulapins"
+		},
+		{
+			"predicate": {
+				"custom_model_data":142
+			},
+			"model": "plopsacraft:142_certificaterth"
+		},
+		{
+			"predicate": {
+				"custom_model_data":143
+			},
+			"model": "plopsacraft:143_tabledepiquenique"
+		},
+		{
+			"predicate": {
+				"custom_model_data":144
+			},
+			"model": "plopsacraft:144_panneau-soon"
+		},
+		{
+			"predicate": {
+				"custom_model_data":145
+			},
+			"model": "plopsacraft:145_casquetterth"
+		},
+		{
+			"predicate": {
+				"custom_model_data":146
+			},
+			"model": "plopsacraft:146_panneaurthenter"
+		},
+		{
+			"predicate": {
+				"custom_model_data":147
+			},
+			"model": "plopsacraft:147_rthtest"
+		},
+		{
+			"predicate": {
+				"custom_model_data":148
+			},
+			"model": "plopsacraft:148_panneaunwf"
 		}
 	]
 }
