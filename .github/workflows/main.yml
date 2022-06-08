@@ -15,8 +15,7 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
+  release:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -28,35 +27,52 @@ jobs:
       - name: Zip Folder
         run: zip -r Plopsacraft-Pack.zip . -x ".git/*" ".github/*" ".gitignore" "README.md"
       
+      - name: SHA1
+        run: echo "::set-output name=SHA1::$(sha1sum Plopsacraft-Pack.zip | cut -d ' ' -f 1)"
+        id: get-sha1
+      
       - name: Create a Release
         uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           prerelease: false
           automatic_release_tag: latest
+          title: 'SHA1: ${{ steps.get-sha1.outputs.SHA1 }}'
           files: |
             Plopsacraft-Pack.zip
-      
-      - name: SHA1
-        run: echo "::set-output name=SHA1::$(sha1sum Plopsacraft-Pack.zip | cut -d ' ' -f 1)"
-        id: get-sha1
-      
-      - name: Configure SSH
-        run: |
-          mkdir -p ~/.ssh/
-          echo "$SSH_KEY" > ~/.ssh/staging.key
-          chmod 600 ~/.ssh/staging.key
-          cat >>~/.ssh/config <<END
-          Host staging
-            HostName $SSH_HOST
-            User $SSH_USER
-            IdentityFile ~/.ssh/staging.key
-            StrictHostKeyChecking no
-          END
-        env:
-          SSH_USER: ${{ secrets.STAGING_SSH_USER }}
-          SSH_KEY: ${{ secrets.STAGING_SSH_KEY }}
-          SSH_HOST: ${{ secrets.STAGING_SSH_HOST }}
-          
-      - name: Test ssh
-        run: ssh staging 'screen -p 0 -X stuff "forcepack reload ${{ steps.get-sha1.outputs.SHA1 }}$(printf \\r)"'
+  
+  deploy:
+      needs: release
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v3
+
+        - name: Configure SSH
+          run: |
+            mkdir -p ~/.ssh/
+            echo "$SSH_KEY" > ~/.ssh/staging.key
+            chmod 600 ~/.ssh/staging.key
+            cat >>~/.ssh/config <<END
+            Host staging
+              HostName $SSH_HOST
+              User $SSH_USER
+              IdentityFile ~/.ssh/staging.key
+              StrictHostKeyChecking no
+            END
+          env:
+            SSH_USER: ${{ secrets.STAGING_SSH_USER }}
+            SSH_KEY: ${{ secrets.STAGING_SSH_KEY }}
+            SSH_HOST: ${{ secrets.STAGING_SSH_HOST }}
+
+        - name: Fetch Latest Release
+          uses: gregziegan/fetch-latest-release@v2.0.0
+          id: fetch-latest-release
+          env:
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+
+        - name: Get SHA1
+          run: echo "::set-output name=SHA1::$(echo ${{ steps.fetch-latest-release.outputs.name }} | awk  '{print $2}')"
+          id: get-sha1
+        
+        - name: Use ssh
+          run: ssh staging 'screen -p 0 -X stuff "forcepack reload ${{ steps.get-sha1.outputs.SHA1 }}$(printf \\r)"'
