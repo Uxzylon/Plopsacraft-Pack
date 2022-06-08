@@ -2,9 +2,9 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "block/cyan_concrete",
-		"1": "C:/Users/steph/Desktop/poubelle",
-		"2": "plopsacraft:C:/Users/steph/Desktop/poubelleplop",
-		"3": "plopsacraft:C:/Users/steph/Desktop/unknown",
+		"1": "plopsacraft:poubelle",
+		"2": "plopsacraft:poubelleplop",
+		"3": "plopsacraft:poubelle2",
 		"4": "plopsacraft:sacpoubelle",
 		"5": "plopsacraft:sacpoubelleinterieur",
 		"particle": "block/cyan_concrete"
