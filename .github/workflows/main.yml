@@ -30,6 +30,9 @@ jobs:
       - name: SHA1
         run: echo "::set-output name=SHA1::$(sha1sum Plopsacraft-Pack.zip | cut -d ' ' -f 1)"
         id: get-sha1
+        
+      - name: Rename Zip file
+        run: mv Plopsacraft-Pack.zip Plopsacraft-Pack-${{ steps.get-sha1.outputs.SHA1 }}.zip
       
       - name: Create a Release
         uses: "marvinpinto/action-automatic-releases@latest"
@@ -37,42 +40,26 @@ jobs:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           prerelease: false
           automatic_release_tag: latest
-          title: 'SHA1: ${{ steps.get-sha1.outputs.SHA1 }}'
+          title: "Latest Version"
           files: |
-            Plopsacraft-Pack.zip
-  
-  deploy:
-      needs: release
-      runs-on: ubuntu-latest
-      steps:
-        - uses: actions/checkout@v3
-
-        - name: Configure SSH
-          run: |
-            mkdir -p ~/.ssh/
-            echo "$SSH_KEY" > ~/.ssh/staging.key
-            chmod 600 ~/.ssh/staging.key
-            cat >>~/.ssh/config <<END
-            Host staging
-              HostName $SSH_HOST
-              User $SSH_USER
-              IdentityFile ~/.ssh/staging.key
-              StrictHostKeyChecking no
-            END
-          env:
-            SSH_USER: ${{ secrets.STAGING_SSH_USER }}
-            SSH_KEY: ${{ secrets.STAGING_SSH_KEY }}
-            SSH_HOST: ${{ secrets.STAGING_SSH_HOST }}
-
-        - name: Fetch Latest Release
-          uses: gregziegan/fetch-latest-release@v2.0.0
-          id: fetch-latest-release
-          env:
-            github_token: ${{ secrets.GITHUB_TOKEN }}
-
-        - name: Get SHA1
-          run: echo "::set-output name=SHA1::$(echo ${{ steps.fetch-latest-release.outputs.name }} | awk  '{print $2}')"
-          id: get-sha1
-        
-        - name: Use ssh
-          run: ssh staging 'screen -p 0 -X stuff "forcepack reload ${{ steps.get-sha1.outputs.SHA1 }}$(printf \\r)"'
+            Plopsacraft-Pack-${{ steps.get-sha1.outputs.SHA1 }}.zip
+            
+      - name: Configure SSH
+        run: |
+          mkdir -p ~/.ssh/
+          echo "$SSH_KEY" > ~/.ssh/staging.key
+          chmod 600 ~/.ssh/staging.key
+          cat >>~/.ssh/config <<END
+          Host staging
+            HostName $SSH_HOST
+            User $SSH_USER
+            IdentityFile ~/.ssh/staging.key
+            StrictHostKeyChecking no
+          END
+        env:
+          SSH_USER: ${{ secrets.STAGING_SSH_USER }}
+          SSH_KEY: ${{ secrets.STAGING_SSH_KEY }}
+          SSH_HOST: ${{ secrets.STAGING_SSH_HOST }}
+          
+      - name: Use ssh
+        run: ssh staging 'screen -p 0 -X stuff "forcepack reload ${{ steps.get-sha1.outputs.SHA1 }} https://github.com/Uxzylon/Plopsacraft-Pack/releases/download/latest/Plopsacraft-Pack-${{ steps.get-sha1.outputs.SHA1 }}.zip$(printf \\r)"'
