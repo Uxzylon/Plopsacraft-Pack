@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"2": "plopsacraft:entrancerth",
-		"3": "plopsacraft:block/blast_furnace_top"
+		"3": "block/blast_furnace_top"
 	},
 	"elements": [
 		{
@@ -482,9 +482,9 @@
 			"rotation": {"angle": 0, "axis": "y", "origin": [-0.2368, -9.7968, -0.2368]},
 			"faces": {
 				"north": {"uv": [0, 0, 2.34775, 3.46056], "texture": "#2"},
-				"east": {"uv": [0, 0, 0.21293, 0], "texture": "#2"},
+				"east": {"uv": [0, 0, 0.91255, 9.42966], "texture": "#2"},
 				"south": {"uv": [0, 0, 2.34775, 3.46056], "texture": "#2"},
-				"west": {"uv": [0.12167, 0, 14.84871, 8.41075], "texture": "#2"},
+				"west": {"uv": [0.12167, 0, 15.39624, 8.3195], "texture": "#2"},
 				"up": {"uv": [0, 0, 2.34775, 3.46056], "texture": "#2"},
 				"down": {"uv": [0, 0, 2.34775, 3.46056], "texture": "#2"}
 			}
