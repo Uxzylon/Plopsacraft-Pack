@@ -885,6 +885,12 @@
 				"custom_model_data":149
 			},
 			"model": "plopsacraft:149_glass"
+		},
+		{
+			"predicate": {
+				"custom_model_data":150
+			},
+			"model": "plopsacraft:150_poubelleplop"
 		}
 	]
 }

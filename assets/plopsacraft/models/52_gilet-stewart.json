@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "minecraft:block/yellow_concrete",
-		"1": "minecraft:block/bone_block_side",
+		"0": "block/yellow_concrete",
+		"1": "block/bone_block_side",
 		"2": "plopsacraft:stewart",
-		"particle": "minecraft:block/yellow_concrete"
+		"particle": "block/yellow_concrete"
 	},
 	"elements": [
 		{
@@ -725,9 +725,9 @@
 	"gui_light": "front",
 	"display": {
 		"thirdperson_lefthand": {
-			"rotation": [0, -90, 0],
-			"translation": [-10.75, -9.25, 7.25],
-			"scale": [0.54, 0.95, 0.76]
+			"rotation": [68.5, -90, 0],
+			"translation": [-10.25, -2.75, 2],
+			"scale": [0.46, 1, 0.72]
 		},
 		"gui": {
 			"translation": [-80, -1.5, 0],
