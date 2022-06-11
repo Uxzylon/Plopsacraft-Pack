@@ -915,6 +915,12 @@
 				"custom_model_data":154
 			},
 			"model": "plopsacraft:154_textefree"
+		},
+		{
+			"predicate": {
+				"custom_model_data":155
+			},
+			"model": "plopsacraft:155_control43"
 		}
 	]
 }
