@@ -15,8 +15,7 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
+  release:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -28,19 +27,23 @@ jobs:
       - name: Zip Folder
         run: zip -r Plopsacraft-Pack.zip . -x ".git/*" ".github/*" ".gitignore" "README.md"
       
+      - name: SHA1
+        run: echo "::set-output name=SHA1::$(sha1sum Plopsacraft-Pack.zip | cut -d ' ' -f 1)"
+        id: get-sha1
+        
+      - name: Rename Zip file
+        run: mv Plopsacraft-Pack.zip Plopsacraft-Pack-${{ steps.get-sha1.outputs.SHA1 }}.zip
+      
       - name: Create a Release
         uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           prerelease: false
           automatic_release_tag: latest
+          title: "Latest Version"
           files: |
-            Plopsacraft-Pack.zip
-      
-      - name: SHA1
-        run: echo "::set-output name=SHA1::$(sha1sum Plopsacraft-Pack.zip | cut -d ' ' -f 1)"
-        id: get-sha1
-      
+            Plopsacraft-Pack-${{ steps.get-sha1.outputs.SHA1 }}.zip
+            
       - name: Configure SSH
         run: |
           mkdir -p ~/.ssh/
@@ -58,5 +61,5 @@ jobs:
           SSH_KEY: ${{ secrets.STAGING_SSH_KEY }}
           SSH_HOST: ${{ secrets.STAGING_SSH_HOST }}
           
-      - name: Test ssh
-        run: ssh staging 'screen -p 0 -X stuff "forcepack reload ${{ steps.get-sha1.outputs.SHA1 }}$(printf \\r)"'
+      - name: Use ssh
+        run: ssh staging 'screen -p 0 -X stuff "forcepack reload ${{ steps.get-sha1.outputs.SHA1 }} https://github.com/Uxzylon/Plopsacraft-Pack/releases/download/latest/Plopsacraft-Pack-${{ steps.get-sha1.outputs.SHA1 }}.zip$(printf \\r)"'
