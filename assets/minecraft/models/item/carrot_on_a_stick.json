@@ -891,6 +891,30 @@
 				"custom_model_data":150
 			},
 			"model": "plopsacraft:150_poubelleplop"
+		},
+		{
+			"predicate": {
+				"custom_model_data":151
+			},
+			"model": "plopsacraft:151_texteopen"
+		},
+		{
+			"predicate": {
+				"custom_model_data":152
+			},
+			"model": "plopsacraft:152_texteclose"
+		},
+		{
+			"predicate": {
+				"custom_model_data":153
+			},
+			"model": "plopsacraft:153_texteoccuped"
+		},
+		{
+			"predicate": {
+				"custom_model_data":154
+			},
+			"model": "plopsacraft:154_textefree"
 		}
 	]
 }
