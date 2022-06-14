@@ -909,6 +909,36 @@
 				"custom_model_data":153
 			},
 			"model": "plopsacraft:153_control43"
+		},
+		{
+			"predicate": {
+				"custom_model_data":154
+			},
+			"model": "plopsacraft:154_control44"
+		},
+		{
+			"predicate": {
+				"custom_model_data":155
+			},
+			"model": "plopsacraft:155_control45"
+		},
+		{
+			"predicate": {
+				"custom_model_data":156
+			},
+			"model": "plopsacraft:156_toboggantop"
+		},
+		{
+			"predicate": {
+				"custom_model_data":157
+			},
+			"model": "plopsacraft:157_tobogganmid"
+		},
+		{
+			"predicate": {
+				"custom_model_data":158
+			},
+			"model": "plopsacraft:158_toboggandown"
 		}
 	]
 }

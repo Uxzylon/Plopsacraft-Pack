@@ -7,7 +7,7 @@
 		"3": "block/yellow_terracotta",
 		"4": "plopsacraft:dragon",
 		"5": "block/brown_mushroom_block",
-		"6": "plopsacraft:inoxplaque",
+		"6": "block/inoxplaque",
 		"7": "block/gray_wool",
 		"8": "plopsacraft:roue",
 		"particle": "block/anvil"
@@ -11294,7 +11294,7 @@
 		"head": {
 			"rotation": [0, -180, 0],
 			"translation": [-9, -32.75, 6.25],
-			"scale": [3.28, 2.5, 2.5]
+			"scale": [3.28, 2.25, 2.5]
 		}
 	},
 	"groups": [
