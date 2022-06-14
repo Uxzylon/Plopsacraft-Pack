@@ -3,7 +3,7 @@
 	"textures": {
 		"0": "block/gray_concrete",
 		"4": "block/light_gray_terracotta",
-		"5": "plopsacraft:texte-rideop",
+		"5": "plopsacraft:text-bouton",
 		"6": "block/white_concrete",
 		"particle": "block/gray_concrete"
 	},
@@ -33,14 +33,14 @@
 			}
 		},
 		{
-			"from": [0.3, 0.275, 3.8],
-			"to": [2.8, 0.325, 5.2],
+			"from": [0.275, 0.275, 3.8],
+			"to": [2.775, 0.325, 5.2],
 			"faces": {
 				"north": {"uv": [0, 0, 3, 0.3], "texture": "#5"},
 				"east": {"uv": [0, 0, 3, 0.3], "texture": "#5"},
 				"south": {"uv": [0, 0, 3, 0.3], "texture": "#5"},
 				"west": {"uv": [0, 0, 3, 0.3], "texture": "#5"},
-				"up": {"uv": [5.60833, 11.84167, 1.175, 9.73334], "texture": "#5"},
+				"up": {"uv": [6.67833, 10.43334, 4.03333, 8.95667], "texture": "#5"},
 				"down": {"uv": [0, 0, 3, 3], "texture": "#5"}
 			}
 		},
@@ -188,8 +188,8 @@
 			}
 		},
 		{
-			"from": [1.025, 0.4, 0.625],
-			"to": [2.05, 0.4, 0.85],
+			"from": [1.025, 0.425, 0.625],
+			"to": [2.05, 0.425, 0.85],
 			"rotation": {"angle": 0, "axis": "y", "origin": [3.425, 0, 1.225]},
 			"faces": {
 				"north": {"uv": [0, 0, 1.025, 0.025], "texture": "#4"},
