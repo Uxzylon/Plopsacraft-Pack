@@ -939,6 +939,12 @@
 				"custom_model_data":158
 			},
 			"model": "plopsacraft:158_toboggandown"
+		},
+		{
+			"predicate": {
+				"custom_model_data":159
+			},
+			"model": "plopsacraft:159_dinosplash"
 		}
 	]
 }
