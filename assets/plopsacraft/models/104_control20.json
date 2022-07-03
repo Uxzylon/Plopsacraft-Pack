@@ -217,7 +217,7 @@
 			"scale": [2, 2, 2]
 		},
 		"head": {
-			"translation": [13, 22.25, 13],
+			"translation": [13.75, 15.5, 13],
 			"scale": [2, 2, 2]
 		},
 		"fixed": {
@@ -226,16 +226,23 @@
 	},
 	"groups": [
 		{
-			"name": "blaze_spawn_egg",
+			"name": "104_control20",
 			"origin": [8, 8, 8],
 			"color": 0,
-			"children": []
-		},
-		{
-			"name": "group",
-			"origin": [5.1, 0, -0.025],
-			"color": 0,
-			"children": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+			"children": [
+				{
+					"name": "blaze_spawn_egg",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"children": []
+				},
+				{
+					"name": "group",
+					"origin": [5.1, 0, -0.025],
+					"color": 0,
+					"children": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+				}
+			]
 		}
 	]
 }
