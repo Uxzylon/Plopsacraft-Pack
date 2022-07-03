@@ -945,6 +945,18 @@
 				"custom_model_data":159
 			},
 			"model": "plopsacraft:159_dinosplash"
+		},
+		{
+			"predicate": {
+				"custom_model_data":160
+			},
+			"model": "plopsacraft:160_control46"
+		},
+		{
+			"predicate": {
+				"custom_model_data":161
+			},
+			"model": "plopsacraft:161_tasseprincissia"
 		}
 	]
 }
