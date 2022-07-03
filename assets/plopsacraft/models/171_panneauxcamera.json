@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "plopsacraft:camera",
+		"particle": "plopsacraft:camera"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 0],
+			"to": [12, 14, 1],
+			"faces": {
+				"north": {"uv": [4.11814, 3.30802, 10.80169, 10.79325], "texture": "#0"},
+				"east": {"uv": [4.79325, 3.74684, 5.79325, 4.48101], "texture": "#0"},
+				"south": {"uv": [4.11814, 3.47679, 10.76793, 10.86076], "texture": "#0"},
+				"west": {"uv": [4.75949, 3.74684, 5.75949, 4.04219], "texture": "#0"},
+				"up": {"uv": [4.79325, 3.74684, 5.53586, 4.74684], "texture": "#0"},
+				"down": {"uv": [4.72574, 3.71308, 5.67089, 4.71308], "texture": "#0"}
+			}
+		}
+	],
+	"display": {}
+}

@@ -957,6 +957,72 @@
 				"custom_model_data":161
 			},
 			"model": "plopsacraft:161_tasseprincissia"
+		},
+		{
+			"predicate": {
+				"custom_model_data":162
+			},
+			"model": "plopsacraft:162_chapeaupirate"
+		},
+		{
+			"predicate": {
+				"custom_model_data":163
+			},
+			"model": "plopsacraft:163_crocher"
+		},
+		{
+			"predicate": {
+				"custom_model_data":164
+			},
+			"model": "plopsacraft:164_draakkasteel"
+		},
+		{
+			"predicate": {
+				"custom_model_data":165
+			},
+			"model": "plopsacraft:165_dinosplash2"
+		},
+		{
+			"predicate": {
+				"custom_model_data":166
+			},
+			"model": "plopsacraft:166_supersplashsign"
+		},
+		{
+			"predicate": {
+				"custom_model_data":167
+			},
+			"model": "plopsacraft:167_plophamburger"
+		},
+		{
+			"predicate": {
+				"custom_model_data":168
+			},
+			"model": "plopsacraft:168_stormopzeesign"
+		},
+		{
+			"predicate": {
+				"custom_model_data":169
+			},
+			"model": "plopsacraft:169_dinosplash1"
+		},
+		{
+			"predicate": {
+				"custom_model_data":170
+			},
+			"model": "plopsacraft:170_burelen"
+		},
+		{
+			"predicate": {
+				"custom_model_data":171
+			},
+			"model": "plopsacraft:171_panneauxcamera"
+		},
+		{
+			"predicate": {
+				"custom_model_data":172
+			},
+			"model": "plopsacraft:172_accesattrac"
 		}
 	]
 }
