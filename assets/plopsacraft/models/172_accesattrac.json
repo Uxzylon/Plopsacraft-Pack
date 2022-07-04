@@ -45,6 +45,14 @@
 		}
 	],
 	"display": {
+		"thirdperson_righthand": {
+			"translation": [7.25, -14.75, 7.75]
+		},
+		"gui": {
+			"rotation": [21, -14, -27],
+			"translation": [0, -7.75, 0],
+			"scale": [0.63, 0.63, 0.63]
+		},
 		"head": {
 			"translation": [0, -33.5, -1.5],
 			"scale": [1.5, 1.44, 1]

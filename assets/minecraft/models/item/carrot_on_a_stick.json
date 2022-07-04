@@ -1023,6 +1023,60 @@
 				"custom_model_data":172
 			},
 			"model": "plopsacraft:172_accesattrac"
+		},
+		{
+			"predicate": {
+				"custom_model_data":173
+			},
+			"model": "plopsacraft:173_wterfiesten"
+		},
+		{
+			"predicate": {
+				"custom_model_data":174
+			},
+			"model": "plopsacraft:174_piratenboot"
+		},
+		{
+			"predicate": {
+				"custom_model_data":175
+			},
+			"model": "plopsacraft:175_gateteacup"
+		},
+		{
+			"predicate": {
+				"custom_model_data":176
+			},
+			"model": "plopsacraft:176_autoecole1"
+		},
+		{
+			"predicate": {
+				"custom_model_data":177
+			},
+			"model": "plopsacraft:177_autoecole2"
+		},
+		{
+			"predicate": {
+				"custom_model_data":178
+			},
+			"model": "plopsacraft:178_lapbarstormopzee"
+		},
+		{
+			"predicate": {
+				"custom_model_data":179
+			},
+			"model": "plopsacraft:179_peluchedragon"
+		},
+		{
+			"predicate": {
+				"custom_model_data":180
+			},
+			"model": "plopsacraft:180_poubelledragon"
+		},
+		{
+			"predicate": {
+				"custom_model_data":181
+			},
+			"model": "plopsacraft:181_machineacafe"
 		}
 	]
 }
