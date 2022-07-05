@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "plopsacraft:stormopzee",
-		"1": "plopsacraft:Piratenboot",
+		"1": "plopsacraft:piratenboot",
 		"particle": "plopsacraft:stormopzee"
 	},
 	"elements": [

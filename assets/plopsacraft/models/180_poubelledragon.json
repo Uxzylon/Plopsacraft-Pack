@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "block/brown_mushroom_block",
-		"2": "plopsacraft:PoubelleDragon",
+		"2": "plopsacraft:poubelledragon",
 		"3": "block/barrel_bottom",
 		"4": "block/anvil",
 		"particle": "block/brown_mushroom_block"
