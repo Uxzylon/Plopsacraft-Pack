@@ -724,20 +724,36 @@
 	],
 	"gui_light": "front",
 	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.3, 0.3, 0.3]
+		},
 		"thirdperson_lefthand": {
-			"rotation": [68.5, -90, 0],
-			"translation": [-10.25, -2.75, 2],
-			"scale": [0.46, 1, 0.72]
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"firstperson_righthand": {
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"firstperson_lefthand": {
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"ground": {
+			"scale": [0.3, 0.3, 0.3]
 		},
 		"gui": {
-			"translation": [-80, -1.5, 0],
-			"scale": [0, 0, 0]
+			"rotation": [29.25, -65.75, 0],
+			"translation": [-1.5, -3.5, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"head": {
+			"rotation": [0, 90, 0],
+			"translation": [6.75, -21.25, -4.5],
+			"scale": [0.87695, 1.53711, 1.11914]
 		}
 	},
 	"groups": [
 		{
-			"name": "group",
-			"origin": [4, 15, -1],
+			"name": "52_gilet-stewart",
+			"origin": [8, 8, 8],
 			"color": 0,
 			"children": [
 				{
@@ -746,35 +762,42 @@
 					"color": 0,
 					"children": [
 						{
-							"name": "hexadecagon",
-							"origin": [8, 8, 8],
+							"name": "group",
+							"origin": [4, 15, -1],
 							"color": 0,
-							"children": [0, 1, 2, 3, 4]
+							"children": [
+								{
+									"name": "hexadecagon",
+									"origin": [8, 8, 8],
+									"color": 0,
+									"children": [0, 1, 2, 3, 4]
+								},
+								{
+									"name": "hexadecagon",
+									"origin": [8, 8, 8],
+									"color": 0,
+									"children": [5, 6, 7, 8, 9]
+								}
+							]
 						},
 						{
-							"name": "hexadecagon",
-							"origin": [8, 8, 8],
+							"name": "group",
+							"origin": [4, 15, -1],
 							"color": 0,
-							"children": [5, 6, 7, 8, 9]
-						}
-					]
-				},
-				{
-					"name": "group",
-					"origin": [4, 15, -1],
-					"color": 0,
-					"children": [
-						{
-							"name": "hexadecagon",
-							"origin": [8, 8, 8],
-							"color": 0,
-							"children": [10, 11, 12, 13, 14, 15, 16]
-						},
-						{
-							"name": "hexadecagon",
-							"origin": [8, 8, 8],
-							"color": 0,
-							"children": [17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50]
+							"children": [
+								{
+									"name": "hexadecagon",
+									"origin": [8, 8, 8],
+									"color": 0,
+									"children": [10, 11, 12, 13, 14, 15, 16]
+								},
+								{
+									"name": "hexadecagon",
+									"origin": [8, 8, 8],
+									"color": 0,
+									"children": [17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50]
+								}
+							]
 						}
 					]
 				}

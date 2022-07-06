@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "minecraft:block/stripped_dark_oak_log",
-		"particle": "minecraft:block/blue_glazed_terracotta"
+		"1": "block/stripped_dark_oak_log",
+		"particle": "block/blue_glazed_terracotta"
 	},
 	"elements": [
 		{
@@ -44,39 +44,73 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"scale": [2.18, 2.17, 2.17]
+			"translation": [-1, -0.75, 0],
+			"scale": [2.52375, 2.17, 2.17]
+		},
+		"thirdperson_lefthand": {
+			"scale": [1.23633, 1, 1]
+		},
+		"gui": {
+			"rotation": [48.12, -34.22, 32.07],
+			"translation": [-8.25, 16, 0],
+			"scale": [0.32813, 1.01758, 1]
 		},
 		"head": {
 			"translation": [3.75, 0, -25.75],
-			"scale": [2.99, 2.99, 2.66]
+			"scale": [3.48805, 2.99, 2.66]
 		}
 	},
 	"groups": [
 		{
-			"name": "group",
+			"name": "44_bateausupport",
 			"origin": [8, 8, 8],
 			"color": 0,
 			"children": [
 				{
 					"name": "group",
-					"origin": [2.23123, 12.57672, 7.89032],
+					"origin": [8, 8, 8],
 					"color": 0,
 					"children": [
 						{
 							"name": "group",
-							"origin": [2.75576, 14.07365, 8.13391],
+							"origin": [2.23123, 12.57672, 7.89032],
+							"color": 0,
+							"children": [
+								{
+									"name": "group",
+									"origin": [2.75576, 14.07365, 8.13391],
+									"color": 0,
+									"children": []
+								},
+								{
+									"name": "group",
+									"origin": [2.75576, 5.28635, 8.13391],
+									"color": 0,
+									"children": []
+								},
+								{
+									"name": "group",
+									"origin": [2.75576, 5.28635, 8.13391],
+									"color": 0,
+									"children": []
+								}
+							]
+						},
+						{
+							"name": "group",
+							"origin": [2.23123, 12.57672, 7.89032],
 							"color": 0,
 							"children": []
 						},
 						{
 							"name": "group",
-							"origin": [2.75576, 5.28635, 8.13391],
+							"origin": [2.23123, 12.57672, 7.89032],
 							"color": 0,
 							"children": []
 						},
 						{
 							"name": "group",
-							"origin": [2.75576, 5.28635, 8.13391],
+							"origin": [-14.9887, 3.725, 46.73473],
 							"color": 0,
 							"children": []
 						}
@@ -84,29 +118,11 @@
 				},
 				{
 					"name": "group",
-					"origin": [2.23123, 12.57672, 7.89032],
+					"origin": [8, 8, 8],
 					"color": 0,
-					"children": []
-				},
-				{
-					"name": "group",
-					"origin": [2.23123, 12.57672, 7.89032],
-					"color": 0,
-					"children": []
-				},
-				{
-					"name": "group",
-					"origin": [-14.9887, 3.725, 46.73473],
-					"color": 0,
-					"children": []
+					"children": [0, 1, 2]
 				}
 			]
-		},
-		{
-			"name": "group",
-			"origin": [8, 8, 8],
-			"color": 0,
-			"children": [0, 1, 2]
 		}
 	]
 }
