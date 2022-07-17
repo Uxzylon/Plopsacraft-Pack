@@ -62,4 +62,4 @@ jobs:
           SSH_HOST: ${{ secrets.STAGING_SSH_HOST }}
           
       - name: Use ssh
-        run: ssh staging 'screen -p 0 -X stuff "forcepack reload ${{ steps.get-sha1.outputs.SHA1 }} https://github.com/Uxzylon/Plopsacraft-Pack/releases/download/latest/Plopsacraft-Pack-${{ steps.get-sha1.outputs.SHA1 }}.zip$(printf \\r)"'
+        run: ssh staging 'tmux send-keys -t minecraft-server "forcepack reload ${{ steps.get-sha1.outputs.SHA1 }} https://github.com/Uxzylon/Plopsacraft-Pack/releases/download/latest/Plopsacraft-Pack-${{ steps.get-sha1.outputs.SHA1 }}.zip" ENTER'
