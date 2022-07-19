@@ -1077,6 +1077,30 @@
 				"custom_model_data":181
 			},
 			"model": "plopsacraft:181_machineacafe"
+		},
+		{
+			"predicate": {
+				"custom_model_data":182
+			},
+			"model": "plopsacraft:182_plopsalatenight"
+		},
+		{
+			"predicate": {
+				"custom_model_data":183
+			},
+			"model": "plopsacraft:183_hatvip"
+		},
+		{
+			"predicate": {
+				"custom_model_data":184
+			},
+			"model": "plopsacraft:184_drapeaubelge"
+		},
+		{
+			"predicate": {
+				"custom_model_data":185
+			},
+			"model": "plopsacraft:185_drapeaufrance"
 		}
 	]
 }
